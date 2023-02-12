@@ -34,10 +34,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 wget https://testnet-1-files.elixir.finance/Dockerfile
 ```
 
+### input your metamask adreess and your private key, recommendation to create a new wallet.
 ```
 nano Dockerfile
 ```
-### input your metamask adreess and your private key, recommendation to create a new wallet.
 
 ```
 docker build . -f Dockerfile -t elixir-validator
